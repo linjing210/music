@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.126.96.196:3306/test?useUnicode=true&charaterset=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: lin@Jing1208
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
